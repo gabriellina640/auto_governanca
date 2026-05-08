@@ -1,0 +1,33 @@
+{
+  "app_name": "Cadastro Inteligente Excel",
+  "excel_path": "",
+  "sheet_name": "Banco de dados",
+  "form_fields": [
+    "Data",
+    "Normativa",
+    "Nome",
+    "Evento",
+    "Detalhamento do Evento",
+    "Função",
+    "Temática",
+    "Perenidade"
+  ],
+  "auto_columns": {
+    "id": "ID",
+    "timestamp": "TimestampInclusao",
+    "user": "UsuarioInclusao"
+  },
+  "hidden_form_fields": [
+    "ID",
+    "TimestampInclusao",
+    "UsuarioInclusao"
+  ],
+  "required_fields": [],
+  "date_fields": [
+    "Data"
+  ],
+  "display_date_format": "%d/%m/%Y",
+  "excel_date_format": "DD/MM/YYYY",
+  "backup_enabled": true,
+  "backup_folder": "backups"
+}

@@ -1,0 +1,22 @@
+/.codex-kit/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local app/runtime files
+config.json
+app.log
+backups/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
